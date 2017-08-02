@@ -9,17 +9,6 @@ table.body{
   background-color: #ffffff;
 }
 
-@media only screen and (max-width: 600px) {
-  #switcher {
-    display:block;
-    background-image: url(../assets/img/banner-mobile.jpg) !important;
-    background-repeat: no-repeat !important;
-    background-position: center !important;
-    width: 320px !important;
-    height: 190px !important;
-  }
-  #bannerImage {display: none !important;}
-}
 
 
 .grey-header{
@@ -38,3 +27,53 @@ table.body{
     text-decoration: underline;
   }
 }
+.content .wrapper-inner {
+  padding: 20px; /*controls the height of the header*/
+}
+p{
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.31;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #54534a;
+
+}
+
+h1{
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 0.5px;
+  color: #49a942;
+}
+
+h2{
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.67;
+  letter-spacing: 0.5px;
+  color: #54534a;
+}
+
+h3{
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.25;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #54534a;
+  text-transform: uppercase;
+}
+
+.small-text{
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #2e2e30;
+
+}
+
