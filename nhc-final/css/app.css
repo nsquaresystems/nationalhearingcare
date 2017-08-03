@@ -344,6 +344,9 @@ table.menu {
 html, body {
   background-color: #ffffff; }
 
+a {
+  text-align: center; }
+
 table.body {
   background-color: #ffffff; }
 
@@ -359,7 +362,7 @@ table.body {
   text-decoration: underline; }
 
 .content .wrapper-inner {
-  padding: 20px;
+  padding: 15px;
   /*controls the height of the header*/ }
 
 p {

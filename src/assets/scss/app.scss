@@ -4,7 +4,9 @@
 html,body{
   background-color: #ffffff;
 }
-
+a{
+  text-align: center;
+}
 table.body{
   background-color: #ffffff;
 }
@@ -28,7 +30,7 @@ table.body{
   }
 }
 .content .wrapper-inner {
-  padding: 20px; /*controls the height of the header*/
+  padding: 15px; /*controls the height of the header*/
 }
 p{
   font-size: 16px;
